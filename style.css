@@ -1,0 +1,19 @@
+body{
+    background-color: #F9F9F9 ;
+}
+h1{
+    font-family: 'Rubik Gemstones', cursive;
+    color: #E5E0FF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6F69AC;
+    
+}
+
+#scores{
+    background-color: #ADA2FF;
+    
+}
+
+#timer{
+    background-color: #3DB2FF;
+}
