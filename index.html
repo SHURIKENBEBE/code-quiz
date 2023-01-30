@@ -9,7 +9,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&family=Saira:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&family=Fredoka+One&family=Plus+Jakarta+Sans:wght@500&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Saira:ital,wght@1,200&display=swap" rel="stylesheet">
+    
 
     <link href="style.css" rel="stylesheet">
 
@@ -21,26 +22,39 @@
     <main class="container-fluid">
 
         <div class="row p-2 justify-content-between align-items-center">
-            <div class="col-md-1 d-inline-flex rounded text-light p-1" id="scores"> View Highscores </div>
+            <div class="col-md-1 d-inline-flex rounded text-light p-1" id="score"> 
+                <span id="userScore">0</span>
+                <span id="totalScore">0</span>
+            
+            </div>
      
-            <div class="col-md-1 d-inline-flex rounded text-light p-1 text-center" id="timer"></div>
+            <span class="col-md-1 d-inline-flex rounded text-light p-1 text-center" id="timer"></span>
         </div>
     
 
         <h1 class="title text-center"> CODE QUIZ </h1>
 
-        <div id="quiz"></div>
-        <button id="submit"></button>
+        <div id="quizbox">
 
-        <div id="results"></div>
-    
-    
+            <div id="questionText" class="p-20 text-center"></div>
 
-        </form>
-       
+            <div class="options text-center p-3">
+                <button class="btn btn-option btn-outline-info" id="true">True</button>
+                <button class="btn btn-option btn-outline-info" id="false">False</button>
+            </div>
+
+        </div>
+
+        <div class="controls text-center p-3">
+            <button class="btn btn-outline-info btn-restart" id="restart">Restart</button>
+            <button class="btn btn-outline-info btn-next" id="next">Next</button>
+            <button class="btn btn-outline-info btn-submit" id="submit">Submit</button>
+        </div>
 
 
-        
+
+
+
 
 
 
